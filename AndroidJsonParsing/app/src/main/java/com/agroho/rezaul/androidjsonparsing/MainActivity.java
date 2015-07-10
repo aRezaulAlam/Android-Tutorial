@@ -24,7 +24,7 @@ public class MainActivity extends ActionBarActivity {
 
     private ProgressDialog pDialog;
 
-    private static String JsonUrl = "http://api.agroho.com/book/json.php";
+    private static String JsonUrl = "http://api.agroho.com/android/json.php";
 
     ArrayList<Book> arraylistBooks = new ArrayList<Book>();
     ListView listViewBooks;
