@@ -213,8 +213,7 @@ public class MainActivity extends Activity {
 
             try {
                 HttpClient httpClient = new DefaultHttpClient();
-                HttpPost httpPost = new HttpPost(
-                        "http://api.agroho.com/GCM/register.php");
+                HttpPost httpPost = new HttpPost(WEB_SERVER_URL);
                 httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                 HttpResponse response = httpClient.execute(httpPost);
