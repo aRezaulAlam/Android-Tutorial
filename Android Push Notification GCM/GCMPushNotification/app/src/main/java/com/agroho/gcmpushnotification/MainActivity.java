@@ -50,8 +50,8 @@ public class MainActivity extends Activity {
     private static final String PREF_GCM_REG_ID = "PREF_GCM_REG_ID";
     private SharedPreferences prefs;
     // Your project number and web server url.
-    private static final String GCM_SENDER_ID = "26721012879";
-    private static final String WEB_SERVER_URL = "http://api.agroho.com/GCM/register.php";
+    private static final String GCM_SENDER_ID = "<GOOGLE_SENDER_ID>";
+    private static final String WEB_SERVER_URL = "<YOUR_SERVER_URL>";
 
     GoogleCloudMessaging gcm;
     Button registerBtn;
